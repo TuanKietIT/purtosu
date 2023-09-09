@@ -5,6 +5,7 @@ export const ROUTES = {
     DASHBOARD: '/admin/v1/dashboard',
     CATEGORY: '/admin/v1/category',
     ENGLISH: '/admin/v1/english',
+    HTML: '/',
     lOGIN: '/admin/v1/login',
     NOT: '/*',
 };

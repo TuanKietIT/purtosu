@@ -12,14 +12,10 @@ const Navbar = () => {
                         menu
                     </span>
                 </button>
-                <div className="dark-mode">
-                    <span className="material-icons-sharp active"></span>
-                    <span className="material-icons-sharp"></span>
-                </div>
 
                 <div className="profile">
                     <div className="info">
-                        <p>Hey, <b>Reza</b></p>
+                        <p><b>Phan Tuấn Kiệt</b></p>
                         <small className="text-muted">Admin</small>
                     </div>
                     <div className="profile-photo">

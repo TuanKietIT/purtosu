@@ -1,0 +1,46 @@
+.hash-card-html{
+    width: 20%;
+    display: inline-block;
+    box-shadow: 2px 2px 20px black;
+    border-radius: 5px; 
+    margin: 2%;
+   }
+
+.image img{
+ width: 100%;
+ border-top-right-radius: 5px;
+ border-top-left-radius: 5px;
+}
+
+.title{
+
+ text-align: center;
+}
+
+h1{
+ font-size: 20px;
+}
+
+.des{
+    padding: 3px;
+    text-align: center;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+.des p{
+   font-size: 15px;
+}
+.des button{
+    margin-top: 40px;
+    margin-bottom: 10px;
+    background-color: white;
+    box-shadow: rgba(67, 71, 85, 0.27) 0px 0px 0.25em, rgba(90, 125, 188, 0.05) 0px 0.25em 1em;
+    border-radius: 5px;
+    padding:10px;
+}
+.des button:hover{
+    background-color: rgb(89, 200, 248);
+    color: white;
+    transition: .5s;
+    cursor: pointer;
+}

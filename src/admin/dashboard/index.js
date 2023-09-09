@@ -128,66 +128,7 @@ const Dashboard = () => {
                         </div>
                     </div>
                 </div>
-                <div className="new-users">
-                    <h2>New Users</h2>
-                    <div className="user-list">
-                        <div className="user">
-                            <img src={profileImage} alt='profile'/>
-                            <h2>Jack</h2>
-                            <p>54 Min Ago</p>
-                        </div>
-                        <div className="user">
-                            <img src={profileImage2} alt='profile'/>
-                            <h2>Amir</h2>
-                            <p>3 Hours Ago</p>
-                        </div>
-                        <div className="user">
-                            <img src={profileImage3} alt='profile'/>
-                            <h2>Ember</h2>
-                            <p>6 Hours Ago</p>
-                        </div>
-                        <div className="user">
-                            <img src={profileImage3} alt='profile'/>
-                            <h2>Ember</h2>
-                            <p>6 Hours Ago</p>
-                        </div>
-                        <div className="user">
-                            <img src={profileImage3} alt='profile'/>
-                            <h2>Ember</h2>
-                            <p>6 Hours Ago</p>
-                        </div>
-                        
-                        <div className="user">
-                            <img src={Plus}  alt='Plus'/>
-                            <h2>More</h2>
-                            <p>New User</p>
-                        </div>
-                    </div>
-                </div>
-                <div className="recent-orders">
-                    <h2>Recent Orders</h2>
-                    <table>
-                        <thead>
-                            <tr>
-                                <th>Course Name</th>
-                                <th>Course Number</th>
-                                <th>Payment</th>
-                                <th>Status</th>
-                                <th></th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr>
-                                <td>Course Name</td>
-                                <td>Course Number</td>
-                                <td>Payment</td>
-                                <td>Status</td>
-                                <td></td>
-                            </tr>
-                        </tbody>
-                    </table>
-                    <a href="/">Show All</a>
-                </div>
+                
                </main>
        </div>
     );
