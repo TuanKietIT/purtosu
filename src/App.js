@@ -6,6 +6,7 @@ import User from "./admin/User/index";
 import Home from "./client/Home";
 import Notfound from "./admin/notfound/index";
 import Category from "./admin/category/index";
+import English from "./admin/english/index";
 
 const App = () => {
   return (
@@ -14,6 +15,7 @@ const App = () => {
          <Route path={ROUTES.DASHBOARD} element={<Dashboard />}></Route>
          <Route path={ROUTES.USER} element={<User />}></Route>
          <Route path={ROUTES.CATEGORY} element={<Category />}></Route>
+         <Route path={ROUTES.ENGLISH} element={<English />}></Route>
          <Route path={ROUTES.NOT} element={<Notfound />}></Route>
      </Routes>
   );

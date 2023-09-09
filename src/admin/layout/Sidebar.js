@@ -52,7 +52,7 @@ const Sidebar = () => {
                         Calender
                     </span>
                 </a>
-                <a href="/" >
+                <a href="/admin/v1/category" >
                     <span>
                        <FileMarkdownOutlined />
                     </span>
@@ -60,7 +60,7 @@ const Sidebar = () => {
                         Category
                     </span>
                 </a>
-                <a href="/" >
+                <a href="/admin/v1/english" >
                     <span>
                        <SketchOutlined />
                     </span>

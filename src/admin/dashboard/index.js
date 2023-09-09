@@ -1,9 +1,7 @@
 
 
 import  './index.css';
-import { 
-    UserOutlined,
-  } from '@ant-design/icons';
+
 
 
 
@@ -188,7 +186,7 @@ const Dashboard = () => {
                             </tr>
                         </tbody>
                     </table>
-                    <a href="#">Show All</a>
+                    <a href="/">Show All</a>
                 </div>
                </main>
        </div>
