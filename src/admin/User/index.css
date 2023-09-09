@@ -1,0 +1,59 @@
+.container-user-admin{
+    width: 96%;
+    height: 100%;
+    margin: 0 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    box-shadow: rgba(136, 165, 191, 0.48) 0px 2px 4px 0px, rgba(136, 165, 191, 0.48) 0px 2px 16px 0px;
+    border-radius: 10px;
+}
+
+.user-admin-search{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin: 15px;
+}
+
+.user-admin-select{
+    margin: 0 10px;
+}
+
+.user-select{
+    width: 120px;
+    padding: 0px 10px;
+    height: 35px;
+    border:.2px solid #bcbaba
+}
+
+.user-search-input{
+    width: 290px;
+    height: 35px;
+    border:.2px solid #bcbaba
+}
+
+.user-search-input{
+    padding: 0px 15px;
+    font-size: 15px;
+}
+
+.user-admin-create{
+    margin: 0 15px;
+    padding: 8px 20px;
+}
+
+.user-admin-create button{
+    padding: 8px 30px;
+    color: #f5f0f0;
+    font-size: 16px;
+    background: #0a9ad8;
+    border-radius: 10px;
+    box-shadow: rgba(136, 165, 191, 0.48) 0px 2px 4px 0px, rgba(136, 165, 191, 0.48) 0px 2px 16px 0px;
+    cursor: pointer;
+}
+
+.user-admin-create button:hover{
+    background: #94cde5;
+}

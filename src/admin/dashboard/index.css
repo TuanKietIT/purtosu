@@ -69,16 +69,19 @@ img{
 h1{
     font-weight: 800;
     font-size: 1.8rem;
+    color:#51535a
 }
 
 h2{
     font-weight: 600;
     font-size: 1.4rem;
+    color:#51535a
 }
 
 h3{
     font-weight: 500;
     font-size: 0.87rem;
+    color:#51535a
 }
 
 small{
@@ -118,7 +121,7 @@ b{
     width: 96%;
     margin: 0 auto;
     gap: 1.8rem;
-    grid-template-columns: 12rem auto 23rem;
+    grid-template-columns: 16rem auto;
 }
 
 aside{
@@ -151,17 +154,14 @@ aside .sidebar{
     display: flex;
     flex-direction: column;
     background-color: var(--color-white);
-    box-shadow: var(--box-shadow);
     border-radius: 15px;
+    box-shadow: rgba(136, 165, 191, 0.48) 0px 2px 4px 0px, rgba(136, 165, 191, 0.48) 0px 2px 16px 0px;
     height: 88vh;
     position: relative;
     top: 1.5rem;
     transition: all 0.3s ease;
 }
 
-aside .sidebar:hover{
-    box-shadow: none;
-}
 
 aside .sidebar a{
     display: flex;
@@ -175,7 +175,7 @@ aside .sidebar a{
 }
 
 aside .sidebar a span{
-    font-size: 0.9rem;
+    font-size: 1.1rem;
     transition: all 0.3s ease;
 }
 
@@ -212,6 +212,10 @@ aside .sidebar a:hover span{
     margin-left: 0.6rem;
 }
 
+.info h1{
+    color: #62cb2e;
+}
+
 aside .sidebar .message-count{
     background-color: var(--color-danger);
     padding: 2px 6px;
@@ -220,9 +224,6 @@ aside .sidebar .message-count{
     border-radius: var(--border-radius-1);
 }
 
-main{
-    margin-top: 1.4rem;
-}
 
 main .analyse{
     display: grid;
@@ -231,17 +232,14 @@ main .analyse{
 }
 
 main .analyse > div{
-    background-color: var(--color-white);
+    background-color: #fff;
     padding: var(--card-padding);
     border-radius: var(--card-border-radius);
     margin-top: 1rem;
     box-shadow: var(--box-shadow);
     cursor: pointer;
     transition: all 0.3s ease;
-}
-
-main .analyse > div:hover{
-    box-shadow: none;
+    box-shadow: rgba(136, 165, 191, 0.48) 0px 2px 4px 0px, rgba(136, 165, 191, 0.48) 0px 2px 16px 0px;
 }
 
 main .analyse > div .status{
@@ -272,6 +270,9 @@ main .analyse svg circle{
     stroke-width: 10;
     stroke-linecap: round;
     transform: translate(5px, 5px);
+    stroke: rgb(193, 229, 247)!important;
+    filter: drop-shadow(2px 4px 6px rgb(71, 232, 232)   );
+    
 }
 
 main .analyse .sales svg circle{
@@ -308,11 +309,9 @@ main .new-users{
 }
 
 main .new-users .user-list{
-    background-color: var(--color-white);
     padding: var(--card-padding);
     border-radius: var(--card-border-radius);
     margin-top: 1rem;
-    box-shadow: var(--box-shadow);
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
@@ -326,10 +325,14 @@ main .new-users .user-list:hover{
 }
 
 main .new-users .user-list .user{
+    padding: 30px 60px;
+    border-radius: 10px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    background: #fff;
+    box-shadow: rgba(136, 165, 191, 0.48) 0px 2px 4px 0px, rgba(136, 165, 191, 0.48) 0px 2px 16px 0px;
 }
 
 main .new-users .user-list .user img{
@@ -350,9 +353,7 @@ main .recent-orders h2{
 main .recent-orders table{
     background-color: var(--color-white);
     width: 100%;
-    padding: var(--card-padding);
     text-align: center;
-    box-shadow: var(--box-shadow);
     border-radius: var(--card-border-radius);
     transition: all 0.3s ease;
 }
@@ -538,7 +539,7 @@ main .recent-orders a{
 @media screen and (max-width: 1200px) {
     .container{
         width: 95%;
-        grid-template-columns: 7rem auto 23rem;
+        grid-template-columns: 12rem auto;
     }
 
     aside .logo h2{
@@ -579,15 +580,6 @@ main .recent-orders a{
         width: 83vw;
     }
 
-    main table thead tr th:last-child,
-    main table thead tr th:first-child{
-        display: none;
-    }
-
-    main table tbody tr td:last-child,
-    main table tbody tr td:first-child{
-        display: none;
-    }
 
 }
 
@@ -644,8 +636,7 @@ main .recent-orders a{
     }
 
     main{
-        margin-top: 8rem;
-        padding: 0 1rem;
+        margin-top: 2rem;
     }
 
     main .new-users .user-list .user{

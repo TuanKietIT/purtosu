@@ -21,13 +21,13 @@ const Dashboard = () => {
        <div className="container"> 
            <SideBar/>
            <main>
+               <NavBar/>
                 <h1>OverView</h1>
                 <div className="analyse">
                     <div className="sales">
                         <div className="status">
                             <div className="info">
                                 <h3>
-                                  <UserOutlined />
                                    Total Sales
                                 </h3>
                                 <h1>$65,024</h1>
@@ -42,6 +42,61 @@ const Dashboard = () => {
                             </div>
                         </div>
                     </div>
+                    <div className="sales">
+                        <div className="status">
+                            <div className="info">
+                                <h3>
+                                   Total Sales
+                                </h3>
+                                <h1>$65,024</h1>
+                            </div>
+                            <div className="progresss">
+                                <svg>
+                                    <circle cx="38" cy="38" r="36"></circle>
+                                </svg>
+                                <div className="percentage">
+                                    <p>+81%</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="sales">
+                        <div className="status">
+                            <div className="info">
+                                <h3>
+                                   Total Sales
+                                </h3>
+                                <h1>$65,024</h1>
+                            </div>
+                            <div className="progresss">
+                                <svg>
+                                    <circle cx="38" cy="38" r="36"></circle>
+                                </svg>
+                                <div className="percentage">
+                                    <p>+81%</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="sales">
+                        <div className="status">
+                            <div className="info">
+                                <h3>
+                                   Total Sales
+                                </h3>
+                                <h1>$65,024</h1>
+                            </div>
+                            <div className="progresss">
+                                <svg>
+                                    <circle cx="38" cy="38" r="36"></circle>
+                                </svg>
+                                <div className="percentage">
+                                    <p>+81%</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
                     <div className="visits">
                         <div className="status">
                             <div className="info">
@@ -94,6 +149,17 @@ const Dashboard = () => {
                             <p>6 Hours Ago</p>
                         </div>
                         <div className="user">
+                            <img src={profileImage3} alt='profile'/>
+                            <h2>Ember</h2>
+                            <p>6 Hours Ago</p>
+                        </div>
+                        <div className="user">
+                            <img src={profileImage3} alt='profile'/>
+                            <h2>Ember</h2>
+                            <p>6 Hours Ago</p>
+                        </div>
+                        
+                        <div className="user">
                             <img src={Plus}  alt='Plus'/>
                             <h2>More</h2>
                             <p>New User</p>
@@ -124,9 +190,7 @@ const Dashboard = () => {
                     </table>
                     <a href="#">Show All</a>
                 </div>
-
                </main>
-           <NavBar/>
        </div>
     );
   }

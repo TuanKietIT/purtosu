@@ -28,7 +28,7 @@ const Sidebar = () => {
             </div>
 
             <div className="sidebar">
-                <a href="/" >
+                <a href="/admin/v1/dashboard" >
                     <span>
                        <DashboardOutlined />
                     </span>
@@ -36,7 +36,7 @@ const Sidebar = () => {
                         Dashboard
                     </span>
                 </a>
-                <a href="/" >
+                <a href="/admin/v1/user" >
                     <span>
                        <UserOutlined />
                     </span>
